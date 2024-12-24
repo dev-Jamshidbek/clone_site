@@ -108,3 +108,6 @@ input[type=submit] {
 .post:hover {
     background-color: #51515b;
 }
+p {
+    color: white;
+}
