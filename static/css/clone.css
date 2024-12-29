@@ -55,7 +55,7 @@ p.date {
 label {
     float: left;
     clear: both;
-    color: #333;
+    color: #03fc17 ! important;
     margin-bottom: 4px;
 }
 

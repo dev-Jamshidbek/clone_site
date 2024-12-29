@@ -13,4 +13,9 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ('name' , 'email' , 'body')
+        widgets = {
+            'name': forms.TextInput(attrs={'id': 'id_name'}),
+            'email': forms.EmailInput(attrs={'id': 'id_email'}),
+            'body': forms.Textarea(attrs={'id': 'id_body'}),
+        }
 
